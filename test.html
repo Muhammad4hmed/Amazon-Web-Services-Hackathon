@@ -1,0 +1,15 @@
+<script>
+<?php
+$files = glob("static/cropped/*.*");
+
+for ($i=1; $i<count($files); $i++)
+
+{
+
+$image = $files[$i];
+echo '<a href="'.$image.'" rel="prettyphoto[gallery1]">';
+echo '<img src="'.$image .'" alt="Gallery #2" />';
+echo "</a>";
+}
+?>
+</script>

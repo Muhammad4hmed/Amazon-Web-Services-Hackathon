@@ -1,0 +1,20 @@
+<head>
+    
+  <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/styles.css')}}" >
+  <script type="text/javascript" media="all" href="{{ url_for('static', filename='scripts/scripts.js')}}"></script>
+</head>
+<body>
+<form class="login-form" name="RegForm" method="post" action="login">
+  <p class="login-text">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-lock fa-stack-1x"></i>
+    </span>
+  </p>
+  <input type="email" autofocus="true" name="email" class="login-password" required="true" placeholder="Email" />
+  <input type="password" name="Password" name="password" class="login-password" required="true" placeholder="Password" />
+  <input type="submit" name="Login" value="Login" class="login-submit" />
+</form>
+    <div class="underlay-photo"></div>
+<a href="register.html" class="login-forgot-pass">Register</a>
+<div class="underlay-black"></div> </body>
