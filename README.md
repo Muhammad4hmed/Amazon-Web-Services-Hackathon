@@ -71,3 +71,6 @@ The system is equipped with a Computer Vision model to separate emergency vehicl
 - **Admin**
 
 ![user](https://github.com/namantuli18/Amazon-Web-Services-Hackathon/blob/master/img/My%20First%20Document%20(1).png)
+
+## AWS Technologies
+![user](https://i.ibb.co/WVWcPXC/Screenshot-59.png)
