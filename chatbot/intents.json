@@ -1,0 +1,35 @@
+{"intents": [
+        {"tag": "Basic Greet",
+         "patterns": ["Hey","Hello", "Hi! Help me out", "Please help me","I am having trouble"],
+         "responses": ["Welcome to the portal!" ," How may I help you?","How can I help you?"],
+         "context_set": "",
+         "response_pre_string":"",
+         "response_post_string":""
+        },
+        {"tag": "payment",
+         "patterns": ["where can I pay the charges","What are the charges","How can I pay the fine","Is there a support for payment","Can I pay my charges","Where should I pay charges"],
+         "responses": ["You can pay the charges in the payments portal","There is a dedicated payments portal in the payments section","We have added support to other 3rd party payment portals that you can use"],
+         "context_set": "",
+         "response_pre_string":"",
+         "response_post_string":""
+        },
+        {"tag": "statistics/dashoard",
+         "patterns": ["Where can I see the stats?","Where can I see user stats?","How are my stats compared to other users","Is there an option to see my stats compared to other users"],
+         "responses":["You can see the stats in the dashboard section","You cans view the statistics in the dashboard profile section","There is a dedicated statistical support dedicated to each user that you can see in the dashboard "],
+
+         "context_set": "",
+         "response_pre_string":"",
+         "response_post_string":""
+        },
+        {"tag": "issues",
+         "patterns": ["I can't sign in","Issues while signing in","Problems while sign in","Can't use my credentials to sign in","I have trouble while signing in","I have issues while signing in"],
+         "responses": ["Are you using your correct e-mail address","Use the forget password button in the login tab","Make sure you are signing in as a user and not as an admin","Make sure you use the user screen to sign in"],
+         "context_set": "",
+         "response_pre_string":"",
+         "response_post_string":""
+        }
+
+
+
+    ]
+}
