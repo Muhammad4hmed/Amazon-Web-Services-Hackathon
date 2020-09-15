@@ -74,3 +74,6 @@ The system is equipped with a Computer Vision model to separate emergency vehicl
 
 ## AWS Technologies
 ![user](https://i.ibb.co/WVWcPXC/Screenshot-59.png)
+
+## In a video
+<iframe class="streamable-embed" src="https://streamable.com/o/mmq1rw" frameborder="0" scrolling="no" width="640" height="352" allowfullscreen></iframe>
